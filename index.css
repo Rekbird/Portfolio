@@ -10,9 +10,8 @@ html {
   body {
     height: 100%;
     width: 100%;
-    margin:0px;
-    overflow: auto;
     margin: 0px;
+    overflow: auto;
     padding: 0px;
   }
   
@@ -22,13 +21,4 @@ html {
     overflow: auto;
     margin: 0px;
     padding: 0px;
-  }
-  
-  .MainClass {
-    height: 100%;
-    width: 100%;
-    overflow: auto;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
   }

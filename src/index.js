@@ -3,9 +3,10 @@ import * as React from 'react'
 import ReactDOM from 'react-dom'
 import { Provider } from 'react-redux'
 
-import Application from './App.js'
+import Application from '../src/Components/Main/App.js'
 import rootSaga from './Sagas/Sagas.js'
-import configureStore from './Store/configureStore'
+import configureStore from './Store/configureStore.js'
+import '../index.css'
 
 const store = configureStore()
 

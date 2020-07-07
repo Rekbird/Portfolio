@@ -10,7 +10,18 @@ module.exports = {
     module: {
       rules: [
         {
-          test: /\.js$/,
+          test: /\.svg$/,
+          use: [
+            {
+              loader: 'svg-url-loader',
+              options: {
+                limit: 10000,
+              },
+            },
+          ],
+        },
+        {
+          test: /\.js|jsx$/,
           exclude: /node_modules/,
           use: ["babel-loader"]
         },
@@ -19,7 +30,7 @@ module.exports = {
           use: ["style-loader", "css-loader"]
         },
         {
-          test: /\.(gif|png|jpe?g|svg)$/i,
+          test: /\.(gif|png|jpe?g)$/i,
           use: [
             'file-loader',
             {
