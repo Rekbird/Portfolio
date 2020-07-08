@@ -17,7 +17,8 @@
 .logo {
     width: 38%;
     height: 17%;
-    background: transparent url('../../../Data/logo.svg') 0% 0% no-repeat padding-box;
+    background: transparent url('../../../Data/logo.png') 0% 0% no-repeat padding-box;
     opacity: 1;
+    background-size: contain;
 }
 

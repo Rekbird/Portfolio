@@ -7,6 +7,7 @@ import Application from '../src/Components/Main/App.js'
 import rootSaga from './Sagas/Sagas.js'
 import configureStore from './Store/configureStore.js'
 import '../index.css'
+import { Router } from 'react-router'
 
 const store = configureStore()
 

@@ -5,4 +5,8 @@
     margin: 0px;
     padding: 0px;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
   }

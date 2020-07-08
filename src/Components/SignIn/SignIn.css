@@ -1,8 +1,105 @@
-.LoginScreenMain {
+.SignIn_Main {
     height: 100%;
     width: 50%;
     overflow: auto;
     margin: 0px;
     padding: 0px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+.SignIn_Header {
+    text-align: center;
+    font: Bold 24px/27px SF Pro Text;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: #212020c0;
+    opacity: 1;
+    margin-bottom: 70px;
+    margin-top:15%;
+}
+
+.SignIn_Input {
+    height: 5%;
+    width: 65%;
+    margin-bottom: 20px;
+    text-align: left;
+    font: Regular 16px/24px SF Pro Text;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #808080;
+    opacity: 1;
+    border: 0px white;
+    border-bottom: 1px solid #B4B4B4;
+    opacity: 1;
+    outline: none;
+    transition: 0.5s;
+}
+
+.SignIn_Input::placeholder {
+    opacity: 0.7;
+}
+
+.SignIn_Input:focus {
+    border: 0px;
+    border-bottom: 1px solid #2F80ED;
+    background-color: transparent;
+    color: #808080;
+}
+
+.SignIn_SubmitButton {
+    height: 5%;
+    width: 30%;
+    background: transparent linear-gradient(238deg, #2F80ED 0%, #56CCF2 100%) 0% 0% no-repeat padding-box;
+    border-radius: 26px;
+    border: 0px;
+    opacity: 1;
+    text-align: center;
+    font: Medium 18px/24px SF Pro Text;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    outline: none;
+    transition: 0.5s;
+}
+
+
+.SignIn_SubmitButton:hover {
+    transition: 0.5s;
+    box-shadow:0 0 0 0.2rem rgba(26, 101, 161, 0.25);
+}
+
+.SignIn_SubmitButton:active {
+    box-shadow:0 0 0 0.2rem rgba(17, 63, 100, 0.63);
+    transition: ease-out;
+}
+
+.SignIn_Links {
+    text-align: center;
+    text-decoration: underline;
+    font: Medium 16px/24px SF Pro Text;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #2F80ED;
+    opacity: 1;
+    margin: 50px 0px 50px 0px;
+}
+.SignIn_Links:hover {
+    color: #2FA4E7;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.SignIn_Paragraph {
+    text-align: center;
+    font: Regular 16px/24px SF Pro Text;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: #808080;
+    opacity: 1;
+    margin-top: 50px;
+} 
