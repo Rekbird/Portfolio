@@ -1,0 +1,66 @@
+.Terms_Main {
+    width: 49%;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.Terms_Header {
+    display: flex;
+    flex-direction: row;
+}
+
+.Terms_Arrow {
+    width: 9px;
+    height: 18px;
+    align-self: flex-start;
+    overflow: hidden;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    opacity: 1;
+    text-align: bottom;
+    padding: 2px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+.Terms_Arrow:hover {
+    background-color: #2f81ed49;
+    border-radius: 25px;
+}
+
+.Terms_H2 {
+    text-align: center;
+    align-self: center;
+    font: Bold 24px/27px Comfortaa;
+    letter-spacing: 0px;
+    color: #212020;
+    opacity: 1;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+.Terms_H3 {
+    text-align: left;
+    font: Regular 15px/22px;
+    font-weight: normal;
+    font-family: SF Pro Text;
+    letter-spacing: 0.15px;
+    color: #2F80ED;
+    opacity: 1;
+}
+
+.Terms_Text {
+    align-self: stretch;
+    text-align: left;
+    font: Regular 15px/22px;
+    font-family: SF Pro Text;
+    letter-spacing: 0.15px;
+    color: #212020;
+    opacity: 1;
+}
